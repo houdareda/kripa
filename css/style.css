@@ -49,7 +49,7 @@ body {
 
 .div-btn .btn {
     background: linear-gradient(to right, #154900, #1F8414);
-    padding: 2px 55px 0px;
+    padding: 2px 55px;
     font-size: 32px;
     font-weight: 600;
     color: #fff;
@@ -127,7 +127,7 @@ body {
     margin-top: 2px;
 }
 .hero .btm-section li{
-    margin-bottom: 11px;
+    margin-bottom: 12px;
     font-size: 5vw;
     line-height: 1.4;
     color: #fff;
@@ -162,7 +162,7 @@ body {
     padding-bottom: 20px;
 }
 .result .top_sect{
-    padding: 0 10px 0 0;
+    padding: 0 12px 0 0;
     margin-bottom: 20px;
 }
 .result .top_sect h2{
@@ -185,11 +185,12 @@ body {
     width: 82%;
     color: #fff;
     margin-bottom: 20px;
+    padding-right:12px ;
 }
 .result .text h3{
     font-size: 5vw;
     margin-bottom: 5px;
-    padding-right:10px ;
+
 }
 .result .text .boxs{
     display: flex;
@@ -198,6 +199,9 @@ body {
 .result .text .boxs .box{
     position: relative;
     padding: 5px;
+}
+.result .text .boxs .box:nth-child(1){
+    padding-right: 0;
 }
 .result .text .boxs .box::after{
     position: absolute;
@@ -217,6 +221,7 @@ body {
 }
 .result .text .boxs .box p{
     font-size: 2.2vw;
+    font-weight: 600;
 }
 
 
@@ -569,7 +574,7 @@ body {
 
 @media (max-width:390px) {
     .div-btn .btn {
-        padding: 2px 50px 0px;
+        padding: 2px 50px;
         font-size: 28px;
     }
 }
