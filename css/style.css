@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: "Thev";
-    src: local("Thev"), url("../images/Thev.ttf") format("truetype");
+    src: local("Thev"), url("../Fonts/Thev.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
   }
@@ -49,7 +49,7 @@ body {
 
 .div-btn .btn {
     background: linear-gradient(to right, #154900, #1F8414);
-    padding: 8px 55px 6px;
+    padding: 2px 55px 0px;
     font-size: 32px;
     font-weight: 600;
     color: #fff;
@@ -70,8 +70,22 @@ body {
     bottom: -38px;
     max-width: 20vw;
 }
+.product-img img{
+    width: 100%;
+}
+.product-img::after{
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 1px;
+    background: #00000081;
+    box-shadow: 0 0 8px 3px #00000094;
+}
 .hero{
-    background: url(../images/herobg.png);
+    background: url(../images/herobg.jpg);
     background-size: cover;
     background-position: left bottom;
 }
@@ -142,7 +156,7 @@ body {
 /* result */
 
 .result {
-    background: url(../images/resultbg.png);
+    background: url(../images/resultbg.jpg);
     background-size: cover;
     background-position: center left;
     padding-bottom: 20px;
@@ -214,7 +228,7 @@ body {
 /* doctor */
 
 .doctor{
-    background: url(../images/bg_doctor.png);
+    background: url(../images/bg_doctor.jpg);
     background-size: cover;
     background-position: top left;
     text-align: center;
@@ -260,6 +274,7 @@ body {
     background-image: linear-gradient(to left, #a80c11, #f0111d );
     -webkit-background-clip: text;
     background-clip: text;
+    font-weight: 700;
 }
 .doctor .boxs .box.full{
     width: 95%;
@@ -278,7 +293,7 @@ body {
 /* how_work */
 
 .how_work{
-    background: url(../images/last_secbg.png);
+    background: url(../images/last_secbg.jpg);
     background-size: cover;
     background-position: top left;
     text-align: center;
@@ -323,7 +338,7 @@ body {
 
 
 .last_sec{
-    background: url(../images/last_secbg.png);
+    background: url(../images/last_secbg.jpg);
     background-size: cover;
     background-position: top left;
 }
@@ -414,7 +429,7 @@ body {
 
 
 .last_sec .sm-p {
-    font-size: 2.9vw;
+    font-size: 2.8vw;
     text-align: center;
     padding: 2px 1px;
     border: 1px solid;
@@ -423,6 +438,7 @@ body {
     width: 95%;
     margin: auto;
     line-height: 1.5;
+    font-weight: 600;
 }
 
 
@@ -469,7 +485,7 @@ body {
 }
 
 .last_sec .div-form form {
-    background: url(../images/bgform.png);
+    background: url(../images/bgform.jpg);
     background-position: center;
     background-size: cover;
     padding: 20px;
@@ -539,7 +555,7 @@ body {
 
 .last_sec .footer .boxs .box div {
 
-    font-size: 2.2vw;
+    font-size: 2vw;
     color: #fff;
  
 }
@@ -554,7 +570,7 @@ body {
 
 @media (max-width:390px) {
     .div-btn .btn {
-        padding: 8px 50px 6px;
+        padding: 2px 50px 0px;
         font-size: 28px;
     }
 }
