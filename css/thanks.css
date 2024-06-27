@@ -24,7 +24,7 @@ body {
   background-image: url("../images/thanks2.jpg");
   color: whitesmoke;
   background-size: cover;
-  background-position: center bottom;
+  background-position: center left;
 }
 .container {
   width: 90vw;
@@ -71,9 +71,7 @@ body {
 }
 /* ============================ */
 @media (max-width: 800px) {
-  body {
-    background-size: auto;
-  }
+
   .container h1 {
     font-size: 80px;
   }
